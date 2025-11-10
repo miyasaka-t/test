@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>案件、人材選択画面</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 6rem;
+      font-size: 4rem;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+      margin-top: 2rem;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 4rem 8rem; /* ← 大きめに */
+      border-radius: 10px;
+      background-color: #00a351;
+      color: white;
+      font-size: 4rem; /* ← 文字も大きめ */
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+
+    a.button:hover {
+      background-color: #00a351;
+      transform: scale(1.08);
+    }
+
+    a.button:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+  <h1>選択してください。</h1>
+
+  <div class="button-container">
+    <a href="https://udify.app/chat/hPqgjfzefSaElaZr" class="button" target="_blank" rel="noopener noreferrer">人材</a>
+    <a href="https://udify.app/chat/b43SVVrpLDDd5XcE" class="button" target="_blank" rel="noopener noreferrer">案件</a>
+  </div>
+</body>
+</html>
